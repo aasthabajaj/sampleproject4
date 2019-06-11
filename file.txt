@@ -13,7 +13,7 @@ steps
 {
 input('Do you want to proceed?')
 }}
-stage('Three')
+stage ('Three')
 {
 when
 {
@@ -25,7 +25,7 @@ steps
 {
 echo "Hello"
 }
-stage('four')
+stage ('four')
 {
 parallel{
 stage('Unit Test')
@@ -35,7 +35,7 @@ steps
 echo "Running the unit test..."
 }
 }
-stage('Integration test')
+stage ('Integration test')
 {
 agent
 {
