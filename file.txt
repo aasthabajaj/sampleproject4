@@ -41,7 +41,7 @@ agent
 {
 docker
 {
-reusenode false
+reuse node false
 image 'ubuntu'
 }
 }
